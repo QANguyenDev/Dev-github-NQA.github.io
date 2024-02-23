@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>NQA</strong>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo temporibus
+                            repellat perspiciatis suscipit commodi nostrum, accusantium amet praesentium ab repudiandae
+                            aliquid ipsa rem obcaecati rerum doloribus vero, debitis incidunt mollitia, quos totam. Illo
+                            aliquam qui est tempora hic doloribus ullam atque provident dolorum? Fugiat, excepturi? Quos
+                            totam voluptate eveniet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper')
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap')
+        })
+    </script>
+</body>
+
+</html>
